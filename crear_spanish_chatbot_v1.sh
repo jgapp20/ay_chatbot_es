@@ -16,7 +16,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import Trainer, TrainingArguments
 
 # Cargar el modelo y el tokenizer
-model_name = "tuner007/spanish_gpt2_medium"
+model_name = "spanish_urlp"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
